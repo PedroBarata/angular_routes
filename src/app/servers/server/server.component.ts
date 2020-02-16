@@ -15,6 +15,7 @@ export class ServerComponent implements OnInit {
 
   ngOnInit() {
     this.route.data.subscribe((data: Data) => {
+      //Obtém, via resolver, o servidor selecionado
       this.server = data['selectedServer'];
     })
 

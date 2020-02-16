@@ -9,6 +9,8 @@ export interface CanComponentDeactivate {
 @Injectable({
     providedIn: 'root'
   })
+
+//Usado para prevenir que o usuário não saia da rota sem querer.
 export class canDeactivateGuard implements CanDeactivate<CanComponentDeactivate> {
 
     canDeactivate(component: CanComponentDeactivate,

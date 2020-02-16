@@ -12,6 +12,7 @@ export class ErrorPageComponent implements OnInit {
 
   ngOnInit() {
     this.route.data.subscribe((data: Data) => {
+      //Obtém a mensagem a partir do routing, estaticamente
       this.errorMessage = data['message'];
     })
   }

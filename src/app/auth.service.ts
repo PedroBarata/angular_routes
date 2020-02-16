@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+//Simula uma autenticação
 export class AuthService {
   private _loggedIn = false;
 

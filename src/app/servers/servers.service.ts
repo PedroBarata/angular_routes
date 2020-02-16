@@ -1,3 +1,5 @@
+//Simula um serviço de requisição HTTP
+
 export class ServersService {
   private servers = [
     {
